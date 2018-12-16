@@ -16,6 +16,8 @@ I have first imported the dataset into a pandas data frame which makes it easier
 
 I have also preprocessed the dataset by removing stop-words and  using Lemmatizing & other standard NLP techniques.
 
+I have also created the Document-Term-Matrix and used the Bag-of-Words approach and used unigrams as features for the ML algorithms.
+
 To extract the features from the text I have used the Tfidf vectorizer from the scikit. 
 
 Lastly I have used various modellig algos from scikit to train on this data.
